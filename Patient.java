@@ -39,7 +39,7 @@ public class Patient extends Doctor {
         if (sendResults == true) {
             System.out.println("Patient has to be checked");
             System.out.println("Sending results to doctor...");
-            generateAlert();
+            generateAlert(results);
         } else {
             System.out.println("Patient has normal health values");
         }
